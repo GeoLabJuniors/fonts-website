@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'BPGNinoMtavruli-Bold';
+  src: url('BPGNinoMtavruli-Bold.woff') format('woff'),
+       url('BPGNinoMtavruli-Bold.ttf') format('truetype'),
+       url('BPGNinoMtavruli-Bold.svg#BPGNinoMtavruli-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bpg_nino_mtavruli_bold';
+  src: url('bpg_nino_mtavruli_bold.eot');
+  src: url('bpg_nino_mtavruli_bold.woff2') format('woff2'),
+       url('bpg_nino_mtavruli_bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BPGNinoMtavruli';
+  src: url('BPGNinoMtavruli.woff') format('woff'),
+       url('BPGNinoMtavruli.ttf') format('truetype'),
+       url('BPGNinoMtavruli.svg#BPGNinoMtavruli') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bpg_nino_mtavruli_normal';
+  src: url('bpg_nino_mtavruli_normal.eot');
+  src: url('bpg_nino_mtavruli_normal.woff2') format('woff2'),
+       url('bpg_nino_mtavruli_normal.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DejaVuSans-Bold';
+  src: url('DejaVuSans-Bold.woff') format('woff'),
+       url('DejaVuSans-Bold.ttf') format('truetype'),
+       url('DejaVuSans-Bold.svg#DejaVuSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dejavu-sans-bold';
+  src: url('dejavu-sans-bold.eot');
+  src: url('dejavu-sans-bold.woff2') format('woff2'),
+       url('dejavu-sans-bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DejaVuSans';
+  src: url('DejaVuSans.eot');
+  src: url('DejaVuSans.woff2') format('woff2'),
+       url('DejaVuSans.woff') format('woff'),
+       url('DejaVuSans.ttf') format('truetype'),
+       url('DejaVuSans.svg#DejaVuSans') format('svg'),
+       url('DejaVuSans.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
