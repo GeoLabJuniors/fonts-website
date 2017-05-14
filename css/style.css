@@ -199,6 +199,7 @@ input[type="range"] {
     border-radius: 6px;
     height: 3px;
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0.15, #652D88), color-stop(0.15, #652D88));
+    cursor: pointer;
 }
 
 input[type='range']::-webkit-slider-thumb {

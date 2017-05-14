@@ -4,16 +4,29 @@
     });
 })();
 
+$(function () {
+
+    $(".weight").tooltip('hide');
+    $(".size").tooltip('hide');
+})
+// enable auto tooltip
+$(".weight").tooltip('show');
+$(".size").tooltip('show');
+
 
 
 $(".size").on("input change", function () {
     var size = $(this).val();
     $(this).parents(".font").children(".row").children(".font-example").children(".mgr0").children(".font-text").css("font-size", size + "em");
+    $(".tooltip-inner").html(size + " em");
+    $(this).attr("data-original-title", size + " em");
 })
 
 $(".weight").on("input change", function () {
     var weight = $(this).val();
     $(this).parents(".font").children(".row").children(".font-example").children(".mgr0").children(".font-text").css("font-weight", weight);
+    $(".tooltip-inner").html(weight);
+    $(this).attr("data-original-title", weight);
 })
 
 $(".download-btn").mouseover(function () {
