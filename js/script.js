@@ -4,29 +4,43 @@
     });
 })();
 
-$(function () {
+$('.size').slider({
+    formatter: function (value) {
+        return value + " em";
+    },
+    min: 1,
+    max: 4.5,
+    value: 4,
+    step: 0.01,
+    focus: true,
+});
 
-    $(".weight").tooltip('hide');
-    $(".size").tooltip('hide');
+$('.weight').slider({
+    formatter: function (value) {
+        return value;
+    },
+    min: 100,
+    max: 900,
+    step: 100,
+    value: 200,
+    focus: true
+});
+
+$(".slider").mousedown(function () {
+    $(this).children(".tooltip").css("opacity", "1");
 })
-// enable auto tooltip
-$(".weight").tooltip('show');
-$(".size").tooltip('show');
-
-
+$(".slider").mouseup(function () {
+    $(this).children(".tooltip").css("opacity", "0");
+})
 
 $(".size").on("input change", function () {
     var size = $(this).val();
     $(this).parents(".font").children(".row").children(".font-example").children(".mgr0").children(".font-text").css("font-size", size + "em");
-    $(".tooltip-inner").html(size + " em");
-    $(this).attr("data-original-title", size + " em");
 })
 
 $(".weight").on("input change", function () {
     var weight = $(this).val();
     $(this).parents(".font").children(".row").children(".font-example").children(".mgr0").children(".font-text").css("font-weight", weight);
-    $(".tooltip-inner").html(weight);
-    $(this).attr("data-original-title", weight);
 })
 
 $(".download-btn").mouseover(function () {
@@ -41,8 +55,10 @@ $(".download-btn").mouseleave(function () {
 
 $(window).resize(function () {
     if (innerWidth < 1024 && innerWidth > 992) {
-        $(".size").attr("max", 3.9);
-        $(".size").attr("value", 3.5);
+        $('.size').slider({
+            max: 3.9,
+            value: 3.5,
+        });
         $(".font-text").css("font-size", "3.5em");
 
     }
@@ -50,8 +66,10 @@ $(window).resize(function () {
 
 $(function () {
     if (innerWidth < 1024 && innerWidth > 992) {
-        $(".size").attr("max", 3.9);
-        $(".size").attr("value", 3.5);
+        $('.size').slider({
+            max: 3.9,
+            value: 3.5,
+        });
         $(".font-text").css("font-size", "3.5em");
 
     }
