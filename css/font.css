@@ -64,3 +64,48 @@
   font-style: normal;
 }
 
+/*Noto Font*/
+
+@font-face {
+	font-family: 'Noto Sans UI';
+	src: url('NotoSansUI-Bold.eot');
+	src: url('NotoSansUI-Bold.eot?#iefix') format('embedded-opentype'),
+		url('NotoSansUI-Bold.woff2') format('woff2'),
+		url('NotoSansUI-Bold.woff') format('woff'),
+		url('NotoSansUI-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('NotoSans.eot');
+	src: url('NotoSans.eot?#iefix') format('embedded-opentype'),
+		url('NotoSans.woff2') format('woff2'),
+		url('NotoSans.woff') format('woff'),
+		url('NotoSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans Georgian';
+	src: url('NotoSansGeorgian-Bold.eot');
+	src: url('NotoSansGeorgian-Bold.eot?#iefix') format('embedded-opentype'),
+		url('NotoSansGeorgian-Bold.woff2') format('woff2'),
+		url('NotoSansGeorgian-Bold.woff') format('woff'),
+		url('NotoSansGeorgian-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans Georgian';
+	src: url('NotoSansGeorgian-Regular.eot');
+	src: url('NotoSansGeorgian-Regular.eot?#iefix') format('embedded-opentype'),
+		url('NotoSansGeorgian-Regular.woff2') format('woff2'),
+		url('NotoSansGeorgian-Regular.woff') format('woff'),
+		url('NotoSansGeorgian-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
