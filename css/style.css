@@ -67,6 +67,7 @@ li.nav-item {
     background-repeat: no-repeat;
     background-size: 600px;
     padding-top: 100px;
+
 }
 
 .jumbotron {
@@ -75,7 +76,7 @@ li.nav-item {
 
 .display-3 {
     font-family: "DejaVuSans";
-    font-size: 55px;
+    font-size: 51px;
     color: #7e7a7a;
 }
 
