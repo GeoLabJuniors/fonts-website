@@ -553,7 +553,7 @@ tr {
         display: block;
     }
     .font-text {
-        font-size: 2em;
+        font-size: 2em !important;
         line-height: inherit;
     }
     #jumbotrone-div {
