@@ -7,7 +7,7 @@ body {
 }
 
 .no-margin {
-    margin:0px;
+    margin: 0px;
 }
 
 .no-padding {
@@ -80,10 +80,8 @@ li.nav-item {
 }
 
 .container {
-    
-*/
-    max-width: calc(100% / 1.4);
-  */     max-width: 100%; 
+    */ max-width: calc(100% / 1.4);
+    */ max-width: 100%;
 }
 
 .jumbotron {
@@ -177,6 +175,10 @@ li.nav-item {
     margin-bottom: 20px;
 }
 
+.font-example {
+    z-index: 1;
+}
+
 .font-opts {
     /* margin-top: 20px; */
     width: 190px;
@@ -184,6 +186,7 @@ li.nav-item {
     font-family: "Noto Sans";
     font-size: 12px;
     float: left;
+    z-index: 2;
 }
 
 .font-name {
@@ -259,6 +262,7 @@ input[type='range']::-webkit-slider-thumb {
     font-weight: 200;
     text-align: center;
     line-height: 100px;
+    padding-left: 15px;
 }
 
 .download-btn {
@@ -267,17 +271,16 @@ input[type='range']::-webkit-slider-thumb {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-left: 0;
+    margin-left: 35px;
 }
 
-.download-btn i {
+.btn-white {
+    display: none;
+}
+
+.download-btn img {
     color: #7e7a7a;
     opacity: 0.3;
-}
-
-.download-btn-hover i {
-    position: absolute;
-    right: -2px;
-    top: 50px;
 }
 
 .font-author {
@@ -286,15 +289,7 @@ input[type='range']::-webkit-slider-thumb {
     font-size: 14px;
     color: #aaaaaa;
     text-align: right;
-    padding-right: 10px;
-}
-
-.font-hover {
-    position: absolute;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(98, 66, 149, 0.7);
-    display: none;
+    padding-right: 48px;
 }
 
 #authors-div {
@@ -316,6 +311,7 @@ input[type='range']::-webkit-slider-thumb {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 /*.designer-img:hover {
     background-size: 120%;
@@ -490,7 +486,7 @@ tr {
 
 @media screen and (max-width: 768px) {
     .font-text {
-        font-size: 2.5em;
+        font-size: 2.5em !important;
     }
     #jumbotrone-div {
         background-image: url(../docs/type-min.png);
@@ -565,7 +561,7 @@ tr {
         display: block;
     }
     .font-text {
-        font-size: 2em !important;
+        font-size: 1.95em !important;
         line-height: inherit;
     }
     #jumbotrone-div {
