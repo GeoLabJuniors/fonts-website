@@ -6,6 +6,14 @@ body {
     max-width: 1920px;
 }
 
+.no-margin {
+    margin:0px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
 .fixed-top {
     max-width: 1920px;
 }
@@ -29,15 +37,16 @@ body {
 
 .navbar-brand img {
     float: left;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 #nav-logo-text {
     font-family: "BPGNinoMtavruli", "bpg_nino_mtavruli_normal";
     font-size: 14px;
-    padding-top: 19px;
+    padding-top: 18px;
     color: #3B3B3B !important;
     opacity: 1;
+    font-weight: 600;
     line-height: 1.2;
 }
 
@@ -71,8 +80,10 @@ li.nav-item {
 }
 
 .container {
-    width: 1100px;
-    max-width: 100%
+    
+*/
+    max-width: calc(100% / 1.4);
+  */     max-width: 100%; 
 }
 
 .jumbotron {
@@ -81,7 +92,7 @@ li.nav-item {
 
 .display-3 {
     font-family: "Noto Sans";
-    font-size: 52px;
+    font-size: 48px;
     color: #7e7a7a;
 }
 
@@ -98,6 +109,7 @@ li.nav-item {
     color: #7e7a7a;
     font-size: 48px;
     font-family: "BPGNinoMtavruli-Bold", "bpg_nino_mtavruli_bold";
+    line-height: 1;
 }
 
 .subtitle {
@@ -105,7 +117,6 @@ li.nav-item {
     color: #7e7a7a;
     font-size: 18.86px;
     font-family: "Noto Sans";
-    font-style: italic;
 }
 
 #history-text {
@@ -167,7 +178,7 @@ li.nav-item {
 }
 
 .font-opts {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 190px;
     height: 180px;
     font-family: "Noto Sans";
@@ -287,7 +298,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 #authors-div {
-    padding-top: 80px;
+    padding-top: 148px;
 }
 
 #designers {
@@ -315,9 +326,9 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 .designer-id {
-    font-size: 18px;
+    font-size: 15px;
     color: #7E7A7A;
-    padding: 25px 10px 0 105px;
+    padding: 25px 0 0 120px;
 }
 
 .designer-id p {
@@ -327,7 +338,7 @@ input[type='range']::-webkit-slider-thumb {
 .name {
     font-family: 'Noto Sans UI', 'Noto Sans UI';
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .prof {
@@ -335,11 +346,11 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 #mentors {
-    padding: 80px 0 100px 0;
+    padding: 140px 0 168px 0;
 }
 
 .ment-row {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .mentor-img {
@@ -380,7 +391,7 @@ input[type='range']::-webkit-slider-thumb {
 .mentor-id {
     font-size: 13px;
     color: #7E7A7A;
-    padding: 25px 10px 0 85px;
+    padding: 20px 10px 0 94px;
 }
 
 .mentor-id p {
@@ -389,7 +400,7 @@ input[type='range']::-webkit-slider-thumb {
 
 #contact-div {
     background-color: #DEDEDE;
-    padding: 80px 0;
+    padding: 80px 0 126px 0;
     font-family: "Noto Sans";
 }
 
@@ -418,11 +429,12 @@ tr {
 #footer {
     font-family: "Noto Sans";
     font-size: 18px;
+    line-height: 1;
     text-align: center;
     background-color: #f6f6f8;
     color: #7E7A7A;
-    height: 50px;
-    padding: 12px;
+    height: 70px;
+    padding: 25px 0;
 }
 
 .sub-show {
