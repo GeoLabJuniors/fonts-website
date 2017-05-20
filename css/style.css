@@ -74,10 +74,10 @@ li.nav-item {
 }
 
 #jumbotrone-div {
+    height: 800px;
     background-image: url(../docs/typewriter.png);
-    background-position: right;
+    background-position: 100% 54%;
     background-repeat: no-repeat;
-    background-size: 600px;
     padding-top: 100px;
 }
 .jumbotron {
@@ -450,6 +450,11 @@ tr {
 }
 
 @media screen and (max-width: 1200px) {
+    #jumbotrone-div{
+        background-size:600px;
+        background-position:100% 55%;
+        height:650px;
+    }
     .mgr0 {
         margin-right: 0;
     }
@@ -504,6 +509,9 @@ tr {
 @media screen and (max-width: 576px) {
     .container {
         padding: 0 25px;
+    }
+    #jumbotrone-div{
+        height:330px;
     }
     .display-3,
     .title {
