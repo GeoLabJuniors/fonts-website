@@ -23,11 +23,13 @@ body {
 }
 
 #header {
-    padding-top: 85px;
+    padding:88px 0 105px 0;
+    border-bottom:1px solid #000000;
 }
 
 .container {
     padding: 0;
+    max-width:1353px;
 }
 
 .navbar {
@@ -78,12 +80,6 @@ li.nav-item {
     background-size: 600px;
     padding-top: 100px;
 }
-
-.container {
-    */ max-width: calc(100% / 1.4);
-    */ max-width: 100%;
-}
-
 .jumbotron {
     background-color: transparent;
 }
@@ -463,6 +459,10 @@ tr {
 }
 
 @media screen and (max-width: 992px) {
+    #header{
+        padding:83px 0 24px 0 ;
+        border-bottom:none;
+    }
     #fonts-div .sub-hide {
         display: none;
     }
