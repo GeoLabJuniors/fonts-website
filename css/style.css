@@ -132,13 +132,14 @@ li.nav-item {
     padding-top: 50px;
     padding-bottom: 30px;
     font-family: "Noto Sans";
-    font-size: 16.5px;
+    font-size:18.86px;
     color: #7e7a7a;
 }
 
 .form-inline {
     justify-content: space-around;
-    padding: 0 120px;
+    margin:0 auto;
+    max-width:1030px;
 }
 
 .form-control option {
