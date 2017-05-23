@@ -504,6 +504,10 @@ tr {
     #letter-img {
         background-image: none;
     }
+    #history-text {
+    padding-top: 17px;
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
