@@ -23,8 +23,7 @@ body {
 }
 
 #header {
-    padding:88px 0 105px 0;
-    border-bottom:1px solid #000000;
+    padding:58px 0 75px 0;
 }
 
 .container {
@@ -56,6 +55,8 @@ body {
     font-family: "BPGNinoMtavruli-Bold", "bpg_nino_mtavruli_bold";
     font-size: 15px;
     opacity: 1;
+    padding-left: 0!important;
+    padding-right: 0 !important;
 }
 
 .nav-link:hover {
@@ -73,11 +74,12 @@ li.nav-item {
 }
 
 #jumbotrone-div {
-    height: 800px;
+    height: 600px;
     background-image: url(../docs/typewriter.png);
-    background-position: 100% 54%;
+    background-position: 100% 67%;
     background-repeat: no-repeat;
-    padding-top: 100px;
+    background-size: 600px;
+    padding-top: 10px;
 }
 .jumbotron {
     background-color: transparent;
@@ -125,7 +127,7 @@ li.nav-item {
 }
 
 #fonts-div {
-    padding-top: 80px;
+    padding-top: 140px;
 }
 
 #fonts-menu {
@@ -259,16 +261,19 @@ input[type='range']::-webkit-slider-thumb {
     font-weight: 200;
     text-align: center;
     line-height: 100px;
-    padding-left: 15px;
+    padding-left: 50px;
+    text-align: left;
 }
 
 .download-btn {
     float: right;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    /* margin-bottom: 14px; */
     padding-top: 20px;
-    padding-left: 0;
+    /* padding-left: 0; */
     margin-left: 35px;
+    height: 72px;
+    align-items: baseline;
 }
 
 .btn-white {
@@ -277,6 +282,8 @@ input[type='range']::-webkit-slider-thumb {
 
 .download-btn img {
     color: #7e7a7a;
+    /* position: relative; */
+    height: 100%;
     opacity: 0.3;
 }
 
