@@ -455,9 +455,6 @@ tr {
         background-position:100% 55%;
         height:650px;
     }
-    .mgr0 {
-        margin-right: 0;
-    }
     #letter-img {
         background-size: 300px;
         ;
@@ -473,7 +470,7 @@ tr {
         display: none;
     }
     #fonts-div .sub-show {
-        display: block;
+        display: inline-block;
     }
     .hidden-font-name {
         display: block;
@@ -506,6 +503,14 @@ tr {
     }
     #history-text {
     padding-top: 17px;
+    }
+    .font-text {
+        line-height: 70px;
+        padding-top: 0;
+}
+    .font{
+        height: 120px;
+        margin-bottom: 10px;
     }
     
 }
@@ -576,7 +581,7 @@ tr {
         display: none;
     }
     .sub-show {
-        display: block;
+        display: inline-block;
     }
     .font-text {
         font-size: 1.95em !important;
@@ -586,16 +591,23 @@ tr {
         background-size: 200px;
     }
     .font {
-        height: 120px;
+        height: 95px;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     .font-text {
-        font-size: 1.5em !important;
+        font-size: 21.55px !important;
     }
     .hidden-font-name {
-        font-size: 12px;
-        height: 20px;
+    font-size: 9px;
+    height: 14px;
     }
+    .font{
+        height: 56px;    
+    }
+    .font-text {
+	padding-top: 0;
+}
+    
 }
