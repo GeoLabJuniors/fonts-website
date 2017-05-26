@@ -67,6 +67,12 @@ body {
     top: 20px;
 }
 
+.navbar-light .navbar-toggler {
+        border: none;
+        right: 0;
+        padding-right: 0;
+    }
+
 li.nav-item {
     float: right;
     margin-left: 70px;
@@ -592,9 +598,7 @@ tr {
     .navbar-brand img {
         height: 75px;
     }
-    .navbar-light .navbar-toggler {
-        border: none;
-    }
+    
     .sub-hide {
         display: none;
     }
