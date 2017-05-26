@@ -460,7 +460,7 @@ tr {
     #jumbotrone-div{
         background-size:600px;
         background-position:122% 55%;
-        height:650px;
+        height:600px;
     }
     #letter-img {
         background-size: 300px;
@@ -510,6 +510,10 @@ tr {
         background-repeat: no-repeat;
         background-size: 400px;
         padding-top: 100px;
+    }
+    .display-3{
+        padding-right:15%;
+        font-size:38px;
     }
     #letter-img {
         background-image: none;
