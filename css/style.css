@@ -459,12 +459,15 @@ tr {
 @media screen and (max-width: 1200px) {
     #jumbotrone-div{
         background-size:600px;
-        background-position:100% 55%;
+        background-position:122% 55%;
         height:650px;
     }
     #letter-img {
         background-size: 300px;
-        ;
+    }
+    .display-3{
+        max-width:100%;
+        padding-right:25%;
     }
 }
 
@@ -472,6 +475,9 @@ tr {
     #header{
         padding:83px 0 24px 0 ;
         border-bottom:none;
+    }
+    #jumbotrone-div{
+        background-position:145% 55%;    
     }
     #fonts-div .sub-hide {
         display: none;
