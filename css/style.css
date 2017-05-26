@@ -23,7 +23,7 @@ body {
 }
 
 #header {
-    padding:58px 0 75px 0;
+    padding: 58px 0 75px 0;
 }
 
 .container {
@@ -81,6 +81,7 @@ li.nav-item {
     background-size: 600px;
     padding-top: 10px;
 }
+
 .jumbotron {
     background-color: transparent;
 }
@@ -89,7 +90,7 @@ li.nav-item {
     font-family: "Noto Sans";
     font-size: 48px;
     color: #7e7a7a;
-    max-width:775px;
+    max-width: 775px;
 }
 
 .display-3 span {
@@ -134,14 +135,14 @@ li.nav-item {
     padding-top: 50px;
     padding-bottom: 30px;
     font-family: "Noto Sans";
-    font-size:18.86px;
+    font-size: 18.86px;
     color: #7e7a7a;
 }
 
 .form-inline {
     justify-content: space-around;
-    margin:0 auto;
-    max-width:1030px;
+    margin: 0 auto;
+    max-width: 1030px;
 }
 
 .form-control option {
@@ -456,27 +457,27 @@ tr {
 }
 
 @media screen and (max-width: 1200px) {
-    #jumbotrone-div{
-        background-size:600px;
-        background-position:122% 55%;
-        height:600px;
+    #jumbotrone-div {
+        background-size: 600px;
+        background-position: 122% 55%;
+        height: 600px;
     }
     #letter-img {
         background-size: 300px;
     }
-    .display-3{
-        max-width:100%;
-        padding-right:25%;
+    .display-3 {
+        max-width: 100%;
+        padding-right: 25%;
     }
 }
 
 @media screen and (max-width: 992px) {
-    #header{
-        padding:83px 0 24px 0 ;
-        border-bottom:none;
+    #header {
+        padding: 83px 0 24px 0;
+        border-bottom: none;
     }
-    #jumbotrone-div{
-        background-position:145% 55%;    
+    #jumbotrone-div {
+        background-position: 145% 55%;
     }
     #fonts-div .sub-hide {
         display: none;
@@ -512,42 +513,41 @@ tr {
         background-size: 400px;
         padding-top: 100px;
     }
-    .display-3{
-        padding-right:15%;
-        font-size:38px;
+    .display-3 {
+        padding-right: 15%;
+        font-size: 38px;
     }
     #letter-img {
         background-image: none;
     }
     #history-text {
-    padding-top: 17px;
+        padding-top: 17px;
     }
     .font-text {
         line-height: 70px;
         padding-top: 0;
-}
-    .font{
+    }
+    .font {
         height: 120px;
         margin-bottom: 10px;
     }
-    
 }
 
 @media screen and (max-width: 576px) {
     .container {
-        padding: 0 40px;
+        padding: 0 25px;
     }
-    #jumbotrone-div{
-        height:330px;
+    #jumbotrone-div {
+        height: 330px;
     }
     .display-3,
     .title {
         font-size: 18px;
-        line-height:23px;
+        line-height: 23px;
     }
-    .display-3{
-        min-width:155px;
-        padding-right:50px;
+    .display-3 {
+        min-width: 155px;
+        padding-right: 50px;
     }
     .subtitle {
         font-size: 9px;
@@ -618,14 +618,22 @@ tr {
         font-size: 21.55px !important;
     }
     .hidden-font-name {
-    font-size: 9px;
-    height: 14px;
+        font-size: 9px;
+        height: 14px;
     }
-    .font{
-        height: 56px;    
+    .font {
+        height: 56px;
     }
     .font-text {
-	padding-top: 0;
-}
-    
+        padding-top: 0;
+    }
+    .text,
+    tr,
+    #nav-logo-text {
+        font-size: 9px;
+        padding-top: 7px;
+    }
+    .navbar-brand img {
+        height: 44px;
+    }
 }
