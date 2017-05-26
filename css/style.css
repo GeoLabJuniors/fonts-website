@@ -439,7 +439,6 @@ tr {
 
 .sub-show {
     display: none;
-    padding-bottom: 15px;
 }
 
 .hidden-font-name {
@@ -497,6 +496,8 @@ tr {
     }
     .font-text {
         font-weight: 200 !important;
+        text-align: center;
+        padding-left: 0;
     }
 }
 
@@ -534,7 +535,7 @@ tr {
 
 @media screen and (max-width: 576px) {
     .container {
-        padding: 0 25px;
+        padding: 0 40px;
     }
     #jumbotrone-div{
         height:330px;

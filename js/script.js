@@ -6,12 +6,12 @@
 
 $('.size').slider({
     formatter: function (value) {
-        return value + " em";
+        return value + "px";
     },
-    min: 1,
-    max: 4.3,
-    value: 3.8,
-    step: 0.01,
+    min: 16,
+    max: 65,
+    value: 60,
+    step: 1,
     focus: true,
 });
 
@@ -35,7 +35,7 @@ $(".slider").mouseup(function () {
 
 $(".size").on("input change", function () {
     var size = $(this).val();
-    $(this).parents(".font").children(".row").children(".font-example").children(".mgr0").children(".font-text").css("font-size", size + "em");
+    $(this).parents(".font").children(".row").children(".font-example").children(".mgr0").children(".font-text").css("font-size", size + "px");
 })
 
 $(".weight").on("input change", function () {
@@ -68,10 +68,10 @@ $(".btn-grey").mouseleave(function () {
 $(window).resize(function () {
     if (innerWidth < 1200 && innerWidth > 992) {
         $('.size').slider({
-            max: 3.5,
-            value: 3,
+            max: 55,
+            value: 48,
         });
-        $(".font-text").css("font-size", "3.5em");
+        $(".font-text").css("font-size", "55px");
 
     }
 })
@@ -79,10 +79,10 @@ $(window).resize(function () {
 $(function () {
     if (innerWidth < 1200 && innerWidth > 992) {
         $('.size').slider({
-            max: 3.5,
-            value: 3,
+            max: 55,
+            value: 48,
         });
-        $(".font-text").css("font-size", "3.5em");
+        $(".font-text").css("font-size", "55px");
 
     }
 })
@@ -90,10 +90,10 @@ $(function () {
 $(window).resize(function () {
     if (innerWidth > 1200) {
         $('.size').slider({
-            max: 4.3,
-            value: 3.8,
+            max: 65,
+            value: 60,
         });
-        $(".font-text").css("font-size", "3.8em");
+        $(".font-text").css("font-size", "60px");
 
     }
 })
