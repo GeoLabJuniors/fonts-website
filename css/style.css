@@ -129,6 +129,9 @@ li.nav-item {
     color: #3b3b3b;
 }
 
+.show-content{
+  display: none;
+}
 .text {
     text-align: justify;
 }
@@ -543,12 +546,16 @@ tr {
         height: 120px;
         margin-bottom: 10px;
     }
+    .show-content{
+      display: block;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .container {
         padding: 0 25px;
     }
+
     #jumbotrone-div {
         height: 330px;
     }
@@ -646,4 +653,10 @@ tr {
     .navbar-brand img {
         height: 44px;
     }
+    .ment-row{
+      padding-top: 30px;
+    }
+}
+.mentor{
+  margin-bottom: 20px;
 }

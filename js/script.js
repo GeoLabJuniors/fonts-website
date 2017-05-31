@@ -97,3 +97,12 @@ $(window).resize(function () {
 
     }
 })
+
+$("button.show-content").click(function(){
+    $(this).parents(".container").find(".text").removeClass("hidden-md-down hidden-sm-down");
+    $(this).parents(".container").find(".font").removeClass("hidden-md-down hidden-sm-down");
+    $(this).parents(".container").find(".des-row").removeClass("hidden-md-down hidden-sm-down");
+    $(this).parents(".container").find(".designer").removeClass("hidden-md-down hidden-sm-down");
+    $(this).parents(".container").find(".mentor").removeClass("hidden-md-down hidden-sm-down");
+    $(this).hide();
+})
