@@ -103,6 +103,6 @@ $("button.show-content").click(function(){
     $(this).parents(".container").find(".font").removeClass("hidden-md-down hidden-sm-down");
     $(this).parents(".container").find(".des-row").removeClass("hidden-md-down hidden-sm-down");
     $(this).parents(".container").find(".designer").removeClass("hidden-md-down hidden-sm-down");
-    $(this).parents(".container").find(".mentor").removeClass("hidden-md-down hidden-sm-down");
+    $(this).parents(".container").find(".mentor").removeClass("hidden-md-down hidden-sm-down hidden-xs-down");
     $(this).hide();
 })
