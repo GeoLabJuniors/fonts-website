@@ -664,8 +664,8 @@ tr {
         display: inline-block;
     }
     .font-text {
-        font-size: 1.95em !important;
-        line-height: inherit;
+        font-size: 1.4em !important;
+        line-height: 50px;
     }
     #jumbotrone-div {
         background-size: 200px;
