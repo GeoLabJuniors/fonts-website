@@ -337,7 +337,7 @@ input[type='range']::-webkit-slider-thumb {
 }*/
 
 .des-row {
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 .designer-id {
@@ -365,7 +365,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 .ment-row {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .mentor-img {
@@ -470,11 +470,19 @@ tr {
     background-size: 350px;
 }
 
+   #designers .des-row {
+     padding: 0px; 
+}
+#designers .designer, #mentors .mentor {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 @media screen and (max-width: 1200px) {
     #jumbotrone-div {
-        background-size: 600px;
+        background-size: 500px;
         background-position: 122% 55%;
-        height: 600px;
+        height: 500px;
     }
     #letter-img {
         background-size: 300px;
@@ -499,9 +507,7 @@ tr {
     #fonts-div .sub-show {
         display: inline-block;
     }
-    .hidden-font-name {
-        display: block;
-    }
+   
     #letter-img {
         background-size: 300px;
     }
@@ -514,6 +520,37 @@ tr {
         text-align: center;
         padding-left: 0;
     }
+    .display-3 {
+        max-width: 100%;
+        padding-right: 29%;
+        font-size: 40px;
+    }
+
+    #designers .designer, #mentors .mentor {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 991px){
+
+ .hidden-font-name {
+        display: block;
+    }
+
+     .show-content {
+        display: block;
+        padding: 0 1rem .5rem 1rem;
+    }
+
+    .contact-info {
+    padding-top: 15px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -532,14 +569,14 @@ tr {
         /*padding-top: 50px;*/
     }
     .display-3 {
-        padding-right: 15%;
-        font-size: 38px;
+        padding-right: 27%;
+        font-size: 35px;
     }
     #letter-img {
         background-image: none;
     }
     #history-text {
-        padding-top: 17px;
+        padding-top: 29px;
     }
     .font-text {
         line-height: 70px;
@@ -549,14 +586,19 @@ tr {
         height: 120px;
         margin-bottom: 10px;
     }
-    .show-content {
-        display: block;
+
+#designers {
+    padding-top: 15px;
+}
+ tr,
+    .ment-row {
+        padding-top: 15px;
     }
 }
 
 @media screen and (max-width: 576px) {
     .container {
-        padding: 0 25px;
+        padding: 0 35px;
     }
     #jumbotrone-div {
         height: 330px;
@@ -607,11 +649,13 @@ tr {
     .navbar-toggler-right {
         top: 3px;
     }
-    td {
-        padding-right: 30px !important;
+
+    .contact-info tr td:nth-of-type(2) {
+        padding-right: 0px !important;
     }
     .navbar-brand img {
-        height: 75px;
+        height: 44px;
+        margin-right: 13px;
     }
     .sub-hide {
         display: none;
@@ -629,6 +673,20 @@ tr {
     .font {
         height: 95px;
     }
+    #history-text {
+    padding-top: 5px;}
+
+    #footer {
+     height: 30px;
+    padding: 10px 0;
+    font-size: 10px;
+    }
+}
+
+.designer-id p.name, .mentor-id p.name {
+padding-top: 6px;
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -645,20 +703,16 @@ tr {
     .font-text {
         padding-top: 0;
     }
-    .text,
-    tr,
-    #nav-logo-text {
-        font-size: 9px;
-        padding-top: 7px;
+
+   
+      .display-3,
+    .title {
+        font-size: 18px;
+        line-height: 23px;
     }
-    .navbar-brand img {
-        height: 44px;
-    }
-    .ment-row {
-        padding-top: 30px;
+    .display-3 {
+        min-width: 155px;
+        padding-right: 53px;
     }
 }
 
-.mentor {
-    margin-bottom: 20px;
-}
